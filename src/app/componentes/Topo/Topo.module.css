@@ -1,0 +1,32 @@
+
+.container_topo{
+    width: 100%;
+   background-color: #1b3675;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+   border-bottom: 1px solid #aaaaaa;
+   position: fixed;
+   z-index: 1;
+}
+.container_logo img{
+    width: 40px;
+    height: auto;
+}
+.container_topo{
+    color: white;
+    font-size: 22px;
+}
+@media (max-width: 500px){
+    .container_topo{
+       padding: 5px;
+    }
+    .container_logo img{
+        width: 30px;
+    }
+    .container_topo{
+        font-size: 18px;
+    }
+}

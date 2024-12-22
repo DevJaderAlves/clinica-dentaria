@@ -1,0 +1,83 @@
+
+.container_beneficio{
+    width: 100%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+.secao_aparelho{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.secao_aparelho h2{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.secao_aparelho span{
+    font-weight: bold;
+}
+.aparelho{
+    width: 100%;
+    max-width: 700px;
+}
+.aparelho img{
+    width: 100%;
+    object-fit: contain;
+}
+.lista_beneficios{
+    width: 100%;
+    max-width: 1024px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.lista_beneficios li{
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lista_beneficios h3{
+    font-size: 24px;
+}
+.lista_beneficios p{
+    font-size: 18px;
+}
+@media (max-width: 998px){
+    .lista_beneficios h3{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px){
+    .container_beneficio{
+        gap: 10px;
+        padding: 10px;
+    }
+    .secao_aparelho{
+        gap: 10px;
+    }
+}
+@media (max-width: 500px){
+    .container_beneficio{
+        gap: 0px;
+        padding: 5px;
+    }
+    .secao_aparelho{
+        gap: 0px;
+    }
+    .secao_aparelho h2{
+        font-size: 25px;
+    }
+}

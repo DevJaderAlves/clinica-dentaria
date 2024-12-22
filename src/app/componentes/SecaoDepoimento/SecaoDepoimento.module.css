@@ -1,0 +1,25 @@
+
+.container_depoimentos{
+  width: 100%;
+  max-width: 300px;
+  flex: 1 1 300;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container_depoimentos p{
+  font-style: italic;
+  font-size: 18px;
+  margin: 0 10px;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+

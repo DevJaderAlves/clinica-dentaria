@@ -1,0 +1,23 @@
+
+.localizacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.subtitulo{
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.subtitulo span{
+    font-weight: bold;
+}
+.localizacao p{
+    font-size: 18px;
+    text-align: center;
+}
